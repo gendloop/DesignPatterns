@@ -15,7 +15,7 @@
 
 	xi::ReleaseIDesignPatternsObj(p);
  * @endcode
- * @author	AUTHOR
+ * @author	gendloop
  */
 
 // c++
