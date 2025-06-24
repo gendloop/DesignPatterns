@@ -2,18 +2,18 @@
 /**
  * @file	i_UREPONAME.h
  * @brief	REPO_BRIEF
- * @see     [项目工程](https://github.com/OWNER/RepoName)
+ * @see     [项目工程](https://github.com/OWNER/DesignPatterns)
  * @see     [版本说明](https://xialgorithm.yuque.com/org-wiki-xialgorithm-dlvfmf/version_update/URL)
  * @see     [下载链接](https://xialgorithm.yuque.com/g/tmarbw/3rdparty/folder/URL)
  * @note    调用示例
  * @code{.cpp}
     #include <i_UREPONAME.h>
 
-	xi::IRepoName* p = xi::CreateIRepoNameObj();
+	xi::IDesignPatterns* p = xi::CreateIDesignPatternsObj();
 
 	// do something ...
 
-	xi::ReleaseIRepoNameObj(p);
+	xi::ReleaseIDesignPatternsObj(p);
  * @endcode
  * @author	AUTHOR
  */
@@ -24,24 +24,24 @@
 // local
 #include "xi_export_TARGET.h"
 
-class RepoName;
+class DesignPatterns;
 
 XI_BEGIN_NAMESPACE
 
-class IRepoName {
+class IDesignPatterns {
 public:
     XI_EXPORT_TARGET
-	IRepoName();
+	IDesignPatterns();
     XI_EXPORT_TARGET
-	~IRepoName();
+	~IDesignPatterns();
 
 private:
-	std::unique_ptr<RepoName> p_;
+	std::unique_ptr<DesignPatterns> p_;
 };
 
 extern "C" {
-	XI_EXPORT_TARGET IRepoName* CreateIRepoNameObj();
-	XI_EXPORT_TARGET void ReleaseIRepoNameObj(IRepoName* obj);
+	XI_EXPORT_TARGET IDesignPatterns* CreateIDesignPatternsObj();
+	XI_EXPORT_TARGET void ReleaseIDesignPatternsObj(IDesignPatterns* obj);
 }
 
 XI_END_NAMESPACE
