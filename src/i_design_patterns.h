@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 /**
  * @file	i_design_patterns.h
  * @brief	REPO_BRIEF
