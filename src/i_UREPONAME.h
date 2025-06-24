@@ -22,7 +22,7 @@
 #include <memory>
 
 // local
-#include "xi_export_TARGET.h"
+#include "xi_export_DESIGNPATTERNS.h"
 
 class DesignPatterns;
 
@@ -30,9 +30,9 @@ XI_BEGIN_NAMESPACE
 
 class IDesignPatterns {
 public:
-    XI_EXPORT_TARGET
+    XI_EXPORT_DESIGNPATTERNS
 	IDesignPatterns();
-    XI_EXPORT_TARGET
+    XI_EXPORT_DESIGNPATTERNS
 	~IDesignPatterns();
 
 private:
@@ -40,8 +40,8 @@ private:
 };
 
 extern "C" {
-	XI_EXPORT_TARGET IDesignPatterns* CreateIDesignPatternsObj();
-	XI_EXPORT_TARGET void ReleaseIDesignPatternsObj(IDesignPatterns* obj);
+	XI_EXPORT_DESIGNPATTERNS IDesignPatterns* CreateIDesignPatternsObj();
+	XI_EXPORT_DESIGNPATTERNS void ReleaseIDesignPatternsObj(IDesignPatterns* obj);
 }
 
 XI_END_NAMESPACE
