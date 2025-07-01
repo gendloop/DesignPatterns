@@ -1,8 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="behavioral">
-      <UniqueIdentifier>{ae792c2f-bace-4349-a7c8-a1d360d960ec}</UniqueIdentifier>
+    <Filter Include="behavioral-patterns">
+      <UniqueIdentifier>{0e68a92e-b83b-4fa9-ae92-3a0c1639c50a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="creational-patterns">
+      <UniqueIdentifier>{bc2c1333-722a-42cc-a038-9fcb7827e657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="structural-patterns">
+      <UniqueIdentifier>{59a8031e-da0a-470a-922c-d0cddd89aa24}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\creational-patterns\singleton.cpp">
+      <Filter>creational-patterns</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\creational-patterns\singleton.h">
+      <Filter>creational-patterns</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -56,9 +56,15 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\tests\test_example.cpp" />
+    <ClCompile Include="..\tests\test_singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\tests\pch.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DesignPatterns\DesignPatterns.vcxproj">
+      <Project>{ce602fcd-f96a-48ca-b86e-62cd6cb2947d}</Project>
+    </ProjectReference>
   </ItemGroup>
   <ItemDefinitionGroup />
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

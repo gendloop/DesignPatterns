@@ -154,6 +154,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\creational-patterns\singleton.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\src\creational-patterns\singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
