@@ -15,9 +15,15 @@
     <ClCompile Include="..\src\creational-patterns\singleton.cpp">
       <Filter>creational-patterns</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\creational-patterns\builder.cpp">
+      <Filter>creational-patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\creational-patterns\singleton.h">
+      <Filter>creational-patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\creational-patterns\builder.h">
       <Filter>creational-patterns</Filter>
     </ClInclude>
   </ItemGroup>

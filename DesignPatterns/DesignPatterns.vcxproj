@@ -154,9 +154,11 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\creational-patterns\builder.cpp" />
     <ClCompile Include="..\src\creational-patterns\singleton.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\creational-patterns\builder.h" />
     <ClInclude Include="..\src\creational-patterns\singleton.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
