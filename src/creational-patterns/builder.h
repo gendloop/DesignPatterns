@@ -2,6 +2,7 @@
 /**
  * @file	builder.h
  * @brief	建造者模式
+ * @note    - MealBuilder
  * @author  gendloop
  */
 
@@ -26,6 +27,17 @@ public:
 };
 using MealItemPtr = std::shared_ptr<MealItem>;
 
+class Soda : public MealItem {
+public:
+    Soda();
+};
+
+class Hamburger : public MealItem {
+public:
+    Hamburger();
+    Hamburger(const std::string& name, double price);
+};
+
 class Meal {
 private:
     std::vector<MealItemPtr> items_;
@@ -36,12 +48,16 @@ public:
     void showItems() const;
 };
 
-class Soda : public MealItem {
+class MealBuilder {
 public:
-    Soda();
-};
+    enum MEAL_TYPE {
+        PACKAGE_1,
+        PACKAGE_2,
+    };
+    
+    Meal buildMeal(MEAL_TYPE type);
 
-class Hamburger : public MealItem {
-public:
-    Hamburger();
+protected:
+    Meal buildPackage1();
+    Meal buildPackage2();
 };

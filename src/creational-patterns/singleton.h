@@ -2,6 +2,8 @@
 /**
  * @file	singleton.h
  * @brief	单例模式
+ * @note    - EagerSingleton
+ *          - LazySingleton
  * @author  gendloop
  */
 

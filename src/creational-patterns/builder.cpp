@@ -32,6 +32,11 @@ Hamburger::Hamburger()
 {
 }
 
+Hamburger::Hamburger(const std::string& name, double price)
+    : MealItem(name, price)
+{
+}
+
 void MealItem::setPrice(double price)
 {
     price_ = price;
@@ -48,20 +53,56 @@ double Meal::getPrice() const
     for(auto item : items_) {
         price += item->getPrice();
     }
+    std::cout << "Total price of the meal: " << price << std::endl;
+    std::cout << std::endl;
     return price;
 }
 
 void Meal::showItems() const
 {
+    std::cout << "Your meal includes the following items:" << std::endl;
     for(auto item : items_) {
         std::cout
             << "MealItem: " << item->getName()
             << ", Price: " << item->getPrice()
             << std::endl;
     }
+    std::cout << std::endl;
 }
 
 Soda::Soda()
     : MealItem("Soda", 4.)
 {
+}
+
+Meal MealBuilder::buildMeal(MEAL_TYPE type)
+{
+    switch(type) {
+        case PACKAGE_1:
+            return buildPackage1();
+        case PACKAGE_2:
+            return buildPackage2();
+        default:
+            throw std::invalid_argument("Invalid meal type");
+    }
+}
+
+Meal MealBuilder::buildPackage1()
+{
+    Meal meal;
+    meal.addItem(std::make_shared<Hamburger>());
+    meal.addItem(std::make_shared<Hamburger>("Beef Hamburger", 12));
+    meal.addItem(std::make_shared<Soda>());
+
+    return meal;
+}
+
+Meal MealBuilder::buildPackage2()
+{
+    Meal meal;
+    meal.addItem(std::make_shared<Hamburger>("Chicken Hamburger", 10));
+    meal.addItem(std::make_shared<Soda>());
+    meal.addItem(std::make_shared<Soda>());
+
+    return meal;
 }
