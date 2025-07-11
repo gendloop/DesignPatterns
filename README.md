@@ -4,8 +4,8 @@
 
 ## Creational Patterns
 
-- [ ] Singleton
-- [ ] Builder
+- [x] Singleton
+- [x] Builder
 
 ## Structural Patterns
 
