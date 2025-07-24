@@ -18,6 +18,9 @@
     <ClCompile Include="..\src\creational-patterns\builder.cpp">
       <Filter>creational-patterns</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\structural-patterns\flyweight.cpp">
+      <Filter>structural-patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\creational-patterns\singleton.h">
@@ -25,6 +28,9 @@
     </ClInclude>
     <ClInclude Include="..\src\creational-patterns\builder.h">
       <Filter>creational-patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\structural-patterns\flyweight.h">
+      <Filter>structural-patterns</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

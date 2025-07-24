@@ -57,6 +57,7 @@
     </ClCompile>
     <ClCompile Include="..\tests\test_builder.cpp" />
     <ClCompile Include="..\tests\test_example.cpp" />
+    <ClCompile Include="..\tests\test_flyweight.cpp" />
     <ClCompile Include="..\tests\test_singleton.cpp" />
   </ItemGroup>
   <ItemGroup>

@@ -9,7 +9,7 @@
 
 ## Structural Patterns
 
-- [ ] Flyweight
+- [x] Flyweight
 
 ## Behavior Patterns
 
