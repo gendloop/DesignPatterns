@@ -1,6 +1,6 @@
 # DesignPatterns
 
-设计模式总结与回顾
+设计模式总结与回顾[笔记](https://www.yuque.com/gendloop/learningnotes/design-patterns)
 
 ## Creational Patterns
 
@@ -13,7 +13,7 @@
 
 ## Behavior Patterns
 
-- [ ] Strategy
+- [x] Strategy
 - [ ] Chain of Responsibility
 - [ ] Template
 - [ ] State

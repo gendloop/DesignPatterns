@@ -59,6 +59,7 @@
     <ClCompile Include="..\tests\test_example.cpp" />
     <ClCompile Include="..\tests\test_flyweight.cpp" />
     <ClCompile Include="..\tests\test_singleton.cpp" />
+    <ClCompile Include="..\tests\test_strategy.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\tests\pch.h" />

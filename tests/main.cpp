@@ -6,7 +6,8 @@ int main(int argc, char* argv[]) {
 
     //::testing::FLAGS_gtest_filter += ":TestSingleton.*";
     //::testing::FLAGS_gtest_filter += ":TestBuilder.*";
-    ::testing::FLAGS_gtest_filter += ":TestFlyweight.*";
+    //::testing::FLAGS_gtest_filter += ":TestFlyweight.*";
+    ::testing::FLAGS_gtest_filter += ":TestStrategy.*";
 
 	return RUN_ALL_TESTS();
 }

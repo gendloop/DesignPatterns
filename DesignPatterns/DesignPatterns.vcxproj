@@ -154,11 +154,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\behavioral-patterns\strategy.cpp" />
     <ClCompile Include="..\src\creational-patterns\builder.cpp" />
     <ClCompile Include="..\src\creational-patterns\singleton.cpp" />
     <ClCompile Include="..\src\structural-patterns\flyweight.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\src\behavioral-patterns\strategy.h" />
     <ClInclude Include="..\src\creational-patterns\builder.h" />
     <ClInclude Include="..\src\creational-patterns\singleton.h" />
     <ClInclude Include="..\src\structural-patterns\flyweight.h" />
