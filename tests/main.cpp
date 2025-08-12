@@ -7,7 +7,8 @@ int main(int argc, char* argv[]) {
     //::testing::FLAGS_gtest_filter += ":TestSingleton.*";
     //::testing::FLAGS_gtest_filter += ":TestBuilder.*";
     //::testing::FLAGS_gtest_filter += ":TestFlyweight.*";
-    ::testing::FLAGS_gtest_filter += ":TestStrategy.*";
+    //::testing::FLAGS_gtest_filter += ":TestStrategy.*";
+    ::testing::FLAGS_gtest_filter += ":TestChainOfResponsibility.*";
 
 	return RUN_ALL_TESTS();
 }

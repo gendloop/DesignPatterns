@@ -56,6 +56,7 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="..\tests\test_builder.cpp" />
+    <ClCompile Include="..\tests\test_chain_of_responsibility.cpp" />
     <ClCompile Include="..\tests\test_example.cpp" />
     <ClCompile Include="..\tests\test_flyweight.cpp" />
     <ClCompile Include="..\tests\test_singleton.cpp" />

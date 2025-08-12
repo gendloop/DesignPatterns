@@ -14,7 +14,7 @@
 ## Behavior Patterns
 
 - [x] Strategy
-- [ ] Chain of Responsibility
+- [x] Chain of Responsibility
 - [ ] Template
 - [ ] State
 
