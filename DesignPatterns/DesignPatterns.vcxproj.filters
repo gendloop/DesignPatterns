@@ -24,6 +24,9 @@
     <ClCompile Include="..\src\behavioral-patterns\strategy.cpp">
       <Filter>behavioral-patterns</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\behavioral-patterns\chain_of_responsibility.cpp">
+      <Filter>behavioral-patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\creational-patterns\singleton.h">
@@ -36,6 +39,9 @@
       <Filter>structural-patterns</Filter>
     </ClInclude>
     <ClInclude Include="..\src\behavioral-patterns\strategy.h">
+      <Filter>behavioral-patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\behavioral-patterns\chain_of_responsibility.h">
       <Filter>behavioral-patterns</Filter>
     </ClInclude>
   </ItemGroup>
