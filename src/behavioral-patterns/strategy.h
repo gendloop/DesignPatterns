@@ -19,6 +19,7 @@ enum class TRIP_TYPE {
 
 class TripMode {
 public:
+    virtual ~TripMode() = default;
     virtual TRIP_TYPE getType() = 0;
     virtual void travel() = 0;
 };

@@ -15,7 +15,7 @@
 
 - [x] Strategy
 - [x] Chain of Responsibility
-- [ ] Template
+- [x] Template
 - [ ] State
 
 

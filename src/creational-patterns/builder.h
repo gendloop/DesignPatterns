@@ -18,6 +18,7 @@ private:
 
 public:
     MealItem(const std::string& name, double price);
+    virtual ~MealItem() = default;
       
     std::string getName() const;
     void setName(const std::string& name);
