@@ -30,6 +30,9 @@
     <ClCompile Include="..\src\behavioral-patterns\template.cpp">
       <Filter>behavioral-patterns</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\behavioral-patterns\state.cpp">
+      <Filter>behavioral-patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\creational-patterns\singleton.h">
@@ -48,6 +51,9 @@
       <Filter>behavioral-patterns</Filter>
     </ClInclude>
     <ClInclude Include="..\src\behavioral-patterns\template.h">
+      <Filter>behavioral-patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\behavioral-patterns\state.h">
       <Filter>behavioral-patterns</Filter>
     </ClInclude>
   </ItemGroup>

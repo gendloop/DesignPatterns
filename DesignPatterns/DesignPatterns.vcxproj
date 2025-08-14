@@ -155,6 +155,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\behavioral-patterns\chain_of_responsibility.cpp" />
+    <ClCompile Include="..\src\behavioral-patterns\state.cpp" />
     <ClCompile Include="..\src\behavioral-patterns\strategy.cpp" />
     <ClCompile Include="..\src\behavioral-patterns\template.cpp" />
     <ClCompile Include="..\src\creational-patterns\builder.cpp" />
@@ -163,6 +164,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\behavioral-patterns\chain_of_responsibility.h" />
+    <ClInclude Include="..\src\behavioral-patterns\state.h" />
     <ClInclude Include="..\src\behavioral-patterns\strategy.h" />
     <ClInclude Include="..\src\behavioral-patterns\template.h" />
     <ClInclude Include="..\src\creational-patterns\builder.h" />
