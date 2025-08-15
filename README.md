@@ -6,17 +6,34 @@
 
 - [x] Singleton
 - [x] Builder
+- [ ] Factory
+- [ ] Abstract Factory
+- [ ] Prototype
 
 ## Structural Patterns
 
 - [x] Flyweight
+- [ ] Composite
+- [ ] Proxy
+- [ ] Adapter
+- [ ] Bridge
+- [ ] Decorator
+- [ ] Facade
 
 ## Behavior Patterns
 
 - [x] Strategy
 - [x] Chain of Responsibility
 - [x] Template
-- [ ] State
+- [x] State
+- [ ] Observer
+- [ ] Mediator
+- [ ] Visitor
+- [ ] Iterator
+- [ ] Memento
+- [ ] Command
+- [ ] Interpreter
+- [ ] Null Object
 
 
 
