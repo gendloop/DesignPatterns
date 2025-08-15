@@ -159,6 +159,7 @@
     <ClCompile Include="..\src\behavioral-patterns\strategy.cpp" />
     <ClCompile Include="..\src\behavioral-patterns\template.cpp" />
     <ClCompile Include="..\src\creational-patterns\builder.cpp" />
+    <ClCompile Include="..\src\creational-patterns\factory.cpp" />
     <ClCompile Include="..\src\creational-patterns\singleton.cpp" />
     <ClCompile Include="..\src\structural-patterns\flyweight.cpp" />
   </ItemGroup>
@@ -168,6 +169,7 @@
     <ClInclude Include="..\src\behavioral-patterns\strategy.h" />
     <ClInclude Include="..\src\behavioral-patterns\template.h" />
     <ClInclude Include="..\src\creational-patterns\builder.h" />
+    <ClInclude Include="..\src\creational-patterns\factory.h" />
     <ClInclude Include="..\src\creational-patterns\singleton.h" />
     <ClInclude Include="..\src\structural-patterns\flyweight.h" />
   </ItemGroup>

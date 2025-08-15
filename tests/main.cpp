@@ -10,7 +10,8 @@ int main(int argc, char* argv[]) {
     //::testing::FLAGS_gtest_filter += ":TestStrategy.*";
     //::testing::FLAGS_gtest_filter += ":TestChainOfResponsibility.*";
     //::testing::FLAGS_gtest_filter += ":TestTemplate.*";
-    ::testing::FLAGS_gtest_filter += ":TestState.*";
+    //::testing::FLAGS_gtest_filter += ":TestState.*";
+    ::testing::FLAGS_gtest_filter += ":TestFactory.*";
 
 	return RUN_ALL_TESTS();
 }
