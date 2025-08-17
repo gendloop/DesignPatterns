@@ -36,6 +36,9 @@
     <ClCompile Include="..\src\creational-patterns\factory.cpp">
       <Filter>creational-patterns</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\creational-patterns\abstract_factory.cpp">
+      <Filter>creational-patterns</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\creational-patterns\singleton.h">
@@ -60,6 +63,9 @@
       <Filter>behavioral-patterns</Filter>
     </ClInclude>
     <ClInclude Include="..\src\creational-patterns\factory.h">
+      <Filter>creational-patterns</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\creational-patterns\abstract_factory.h">
       <Filter>creational-patterns</Filter>
     </ClInclude>
   </ItemGroup>

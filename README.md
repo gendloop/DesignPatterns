@@ -6,8 +6,8 @@
 
 - [x] Singleton
 - [x] Builder
-- [ ] Factory
-- [ ] Abstract Factory
+- [x] Factory
+- [x] Abstract Factory
 - [ ] Prototype
 
 ## Structural Patterns
