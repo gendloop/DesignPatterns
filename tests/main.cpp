@@ -12,7 +12,8 @@ int main(int argc, char* argv[]) {
     //::testing::FLAGS_gtest_filter += ":TestTemplate.*";
     //::testing::FLAGS_gtest_filter += ":TestState.*";
     //::testing::FLAGS_gtest_filter += ":TestFactory.*";
-    ::testing::FLAGS_gtest_filter += ":TestAbstractFactory.*";
+    //::testing::FLAGS_gtest_filter += ":TestAbstractFactory.*";
+    ::testing::FLAGS_gtest_filter += ":TestComposite.*";
 
 	return RUN_ALL_TESTS();
 }

@@ -13,7 +13,7 @@
 ## Structural Patterns
 
 - [x] Flyweight
-- [ ] Composite
+- [x] Composite
 - [ ] Proxy
 - [ ] Adapter
 - [ ] Bridge

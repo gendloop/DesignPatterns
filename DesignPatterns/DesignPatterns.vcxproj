@@ -162,6 +162,7 @@
     <ClCompile Include="..\src\creational-patterns\builder.cpp" />
     <ClCompile Include="..\src\creational-patterns\factory.cpp" />
     <ClCompile Include="..\src\creational-patterns\singleton.cpp" />
+    <ClCompile Include="..\src\structural-patterns\composite.cpp" />
     <ClCompile Include="..\src\structural-patterns\flyweight.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -173,6 +174,7 @@
     <ClInclude Include="..\src\creational-patterns\builder.h" />
     <ClInclude Include="..\src\creational-patterns\factory.h" />
     <ClInclude Include="..\src\creational-patterns\singleton.h" />
+    <ClInclude Include="..\src\structural-patterns\composite.h" />
     <ClInclude Include="..\src\structural-patterns\flyweight.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
